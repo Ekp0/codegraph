@@ -74,6 +74,7 @@ services:
     name: codegraph-redis
     plan: free
     maxmemoryPolicy: allkeys-lru
+    ipAllowList: []  # Allow connections from all Render services
 
 databases:
   # PostgreSQL Database
